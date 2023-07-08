@@ -5,5 +5,16 @@
     "version": "0.0.1",
     "require": {
         "laminas/laminas-coding-standard": "^2.5"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "GeekmusclayCodingStandard\\": "src/GeekmusclayCodingStandard/"
+        }
     }
 }
