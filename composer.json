@@ -2,7 +2,7 @@
     "name": "geekmusclay/coding-standard",
     "type": "phpcodesniffer-standard",
     "description": "GeekMusclay Coding Standard",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "require": {
         "laminas/laminas-coding-standard": "^2.5"
     },
